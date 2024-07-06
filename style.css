@@ -1,0 +1,16 @@
+/* Nav style */
+nav {
+  display: flex;
+}
+.font {
+  font-family: sans-serif;
+}
+
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+#r {
+  color: rgb(255, 155, 74);
+}

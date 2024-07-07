@@ -4,9 +4,21 @@
   font-variation-settings: "wdth" 100;
 }
 
+.btn-primary {
+  background-color: #fd6e0a;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  padding: 18px 35px;
+  border-radius: 5px;
+  border: none;
+}
+
 /* Nav style */
 nav {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .nav-title {
@@ -16,4 +28,19 @@ nav {
 /* shared style */
 .r {
   color: #fd6e0a;
+}
+.dark-2 {
+  color: #474747;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav li a {
+  text-decoration: none;
+  font-size: 20px;
 }

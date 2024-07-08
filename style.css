@@ -1,3 +1,6 @@
+/* Global settings */
+* {
+}
 /* Global font settings */
 .font {
   font-family: sans-serif;
@@ -14,6 +17,7 @@
   padding: 18px 35px;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
 }
 
 /* Secondary button style with margin */
@@ -26,6 +30,7 @@
   border-radius: 5px;
   border: none;
   margin-right: 10px; /* Space between buttons */
+  cursor: pointer;
 }
 .text-center {
   text-align: center;
@@ -68,6 +73,7 @@ nav {
 
 .dark-2 {
   color: #474747; /* Darker text color */
+  cursor: pointer;
 }
 
 /* Navigation list styles */
@@ -170,4 +176,27 @@ main section {
   padding: 130px 150px;
   margin-left: 20%;
   margin-right: 20%;
+}
+
+/* Resume section style */
+.resume-container {
+  display: flex;
+  gap: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+.experience-sub-title {
+  font-size: 20px;
+}
+.experience-dec,
+.experience-sub-title {
+  color: #757575;
+}
+.resume hr {
+  margin: 30px;
+}
+.download-cv {
+  margin-top: 50px;
 }

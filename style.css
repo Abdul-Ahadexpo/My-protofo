@@ -22,6 +22,14 @@
   border-radius: 5px;
   border: none;
 }
+/* header */
+.header {
+  background-image: url("../Img/developer.png"), url("../Img/header_bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  width: 700px;
+}
 
 /* Nav style */
 nav {

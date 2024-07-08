@@ -197,3 +197,23 @@ main section {
 .download-cv {
   margin-top: 50px;
 }
+
+/* Footer styles */
+footer {
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+}
+.footer-cloumn {
+  width: 50%;
+}
+.txt {
+  height: 50px;
+  border-radius: 8px;
+  background-color: white;
+  display: block;
+  width: 180%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+}

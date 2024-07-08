@@ -27,6 +27,9 @@
   border: none;
   margin-right: 10px; /* Space between buttons */
 }
+.text-center {
+  text-align: center;
+}
 
 /* Header background images */
 .header {
@@ -127,13 +130,16 @@ nav li a {
   max-width: 1140px; /* Maximum width for main content */
   margin: 0 auto; /* Center main content horizontally */
 }
-
+main section {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
 /* About section styles */
 .about {
   border-radius: 10px; /* Rounded corners for about section */
   padding: 130px 150px;
   text-align: center;
-  margin-top: 130px;
+
   margin-left: 20%;
   margin-right: 20%;
 }
@@ -144,4 +150,24 @@ nav li a {
 
 .item-description {
   font-weight: 600;
+}
+
+/* skills seletction styles */
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.skill {
+  /* padding-left: 30px;
+  padding-right: 30px;
+  text-align: start; */
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgb(0, 0, 0, 0.06);
+}
+.skills {
+  padding: 130px 150px;
+  margin-left: 20%;
+  margin-right: 20%;
 }

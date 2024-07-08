@@ -1,9 +1,11 @@
+/* Global font settings */
 .font {
   font-family: sans-serif;
   font-optical-sizing: auto;
   font-variation-settings: "wdth" 100;
 }
 
+/* Primary button style */
 .btn-primary {
   background-color: #fd6e0a;
   font-weight: bold;
@@ -13,6 +15,8 @@
   border-radius: 5px;
   border: none;
 }
+
+/* Secondary button style with margin */
 .btn-primary-2 {
   background-color: #fd6e0a;
   font-weight: bold;
@@ -21,8 +25,10 @@
   padding: 18px 35px;
   border-radius: 5px;
   border: none;
+  margin-right: 10px; /* Space between buttons */
 }
-/* header */
+
+/* Header background images */
 .header {
   background-image: url("../Img/developer.png"), url("../Img/header_bg.png");
   background-size: contain;
@@ -30,50 +36,112 @@
   background-position: top left, bottom right;
 }
 
-/* Nav style */
+/* Navigation bar styles */
 nav {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space out items horizontally */
 }
 
+/* Navigation title with padding */
 .nav-title {
   font-weight: 800;
   font-size: 45px;
+  padding-left: 200px; /* Left padding for alignment */
 }
-/* shared style */
+
+/* Shared styles */
+.secondary-bg {
+  background-color: #fff8f3; /* Light background color */
+}
+.section-title {
+  font-size: 35px; /* Section title font size */
+  font-weight: bold; /* Section title font weight */
+  color: #181818; /* Section title color */
+}
 .r {
-  color: #fd6e0a;
+  color: #fd6e0a; /* Highlighted text color */
 }
+
 .dark-2 {
-  color: #474747;
+  color: #474747; /* Darker text color */
 }
+
+/* Navigation list styles */
 nav ul {
-  display: flex;
-  align-items: center;
+  display: flex; /* Align items horizontally */
+  align-items: center; /* Center items vertically */
 }
+
 nav ul li {
-  list-style: none;
-  margin-right: 50px;
+  list-style: none; /* Remove default list style */
+  margin-right: 50px; /* Space between list items */
 }
+
 nav li a {
-  text-decoration: none;
-  font-size: 20px;
+  text-decoration: none; /* Remove default link underline */
+  font-size: 20px; /* Link font size */
+}
+
+/* Section description style */
+.section-description {
+  font-size: 18px;
+  color: #757575; /* Color corrected to be valid */
 }
 
 /* Banner styles */
 .banner {
   display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space out content and image */
 }
+
+/* Banner content styles */
+.banner-content {
+  max-width: 60%; /* Restrict banner content width */
+  padding-left: 200px; /* Left padding for alignment */
+}
+
 .banner-greetings {
-  font-size: 45px;
-  font-weight: 400;
+  font-size: 45px; /* Greeting text font size */
+  font-weight: 400; /* Greeting text font weight */
 }
 
 .banner-title {
-  font-size: 85px;
-  font-weight: bold;
+  font-size: 85px; /* Banner title font size */
+  font-weight: bold; /* Banner title font weight */
 }
+
 .banner-profile-pic {
-  width: 480px;
+  width: 480px; /* Profile picture width */
+}
+
+/* Banner buttons container */
+.banner-buttons {
+  display: flex; /* Align buttons horizontally */
+  align-items: center; /* Center buttons vertically */
+}
+
+/* Main content styles */
+.main {
+  max-width: 1140px; /* Maximum width for main content */
+  margin: 0 auto; /* Center main content horizontally */
+}
+
+/* About section styles */
+.about {
+  border-radius: 10px; /* Rounded corners for about section */
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 130px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.about-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-description {
+  font-weight: 600;
 }

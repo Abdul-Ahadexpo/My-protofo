@@ -33,6 +33,12 @@
   color: #fd6e0a;
   background-color: #fff4ed;
   border: #fd6e0a 2px solid;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 18px 35px;
+  border-radius: 5px;
+  margin-right: 10px; /* Space between buttons */
+  cursor: pointer;
 }
 .text-center {
   text-align: center;

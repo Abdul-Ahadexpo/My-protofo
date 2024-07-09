@@ -29,6 +29,11 @@
   margin-right: 10px; /* Space between buttons */
   cursor: pointer;
 }
+.phone {
+  color: #fd6e0a;
+  background-color: #fff4ed;
+  border: #fd6e0a 2px solid;
+}
 .text-center {
   text-align: center;
 }
